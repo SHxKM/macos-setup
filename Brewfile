@@ -44,7 +44,7 @@ cask "textexpander"
 cask "Hazel"
 cask "moom"
 cask "alfred"
-
+cask "switchresx" # May not be needed in more capable Macbook Pro
 
 # programming
 cask "font-fira-mono"
