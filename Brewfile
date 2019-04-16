@@ -50,7 +50,7 @@ cask "switchresx" # May not be needed in more capable Macbook Pro
 # programming
 cask "font-fira-mono"
 cask "pycharm"
-cask "atom"
+cask "sublime-text"
 
 # production
 cask "screenflow"

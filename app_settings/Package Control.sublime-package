@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl"
+		],
+		"osx":
+		[
+			"curl"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"One Dark Material - Theme",
+		"Package Control",
+		"PipenvPath",
+		"PyenvEnv",
+		"SideBarEnhancements",
+		"Sublimerge 3",
+		"Terminal",
+		"Virtualenv"
+	]
+}
