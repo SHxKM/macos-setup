@@ -29,6 +29,7 @@ mas "com.acqualia.soulver", id: 413965349 # Soulver
 # programming 
 brew "python3"
 brew "git"
+brew "bash-completion"
 brew "sqlite"
 brew "postgresql", restart_service: true
 brew "redis", restart_service: true
