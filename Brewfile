@@ -1,5 +1,5 @@
 ## INITIAL SET-UP
-
+cask_args appdir: '/Applications'
 # set-up brew
 tap "homebrew/bundle"
 tap "homebrew/cask"
