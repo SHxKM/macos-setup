@@ -39,13 +39,15 @@ brew "yarn"
 
 ## CASKS
 
-# mac utils
+# mac eseentials
 cask "vlc"
 cask "textexpander"
 cask "Hazel"
 cask "moom"
 cask "alfred"
-cask "switchresx" # May not be needed in more capable Macbook Pro
+cask "carbon-copy-cloner"
+
+
 
 # programming
 cask "font-fira-mono"
@@ -54,7 +56,7 @@ cask "sublime-text"
 
 # production
 cask "screenflow"
-
+cask "switchresx" # May not be needed in more capable Macbook Pro
 
 # security
 cask "little-snitch"
