@@ -27,7 +27,7 @@ mas "com.acqualia.soulver", id: 413965349 # Soulver
 ## BREW
 
 # programming 
-brew "python3"
+brew "python"
 brew "git"
 brew "bash-completion"
 brew "sqlite"

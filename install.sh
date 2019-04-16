@@ -35,5 +35,9 @@ echo "Downloading git-completion.bash"
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > ${homedir}/.git-completion.bash
 
 
+# Run brew command here
+./dobrew.sh
+
+
 # Run the Sublime Script
 ./sublime.sh
