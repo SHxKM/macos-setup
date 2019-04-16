@@ -1,1 +1,2 @@
-# brew bundle --file=Desktop/example_brew.rb
+#!/usr/bin/env bash
+brew bundle # implied: --file=Brewfile
