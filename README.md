@@ -9,10 +9,10 @@ This automates the installation of over 30 apps and utilities for my macOS machi
 ### Requirements:
 
 1. Homebrew:
-	- ```
-		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-	  ```
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 
 ### Usage:
