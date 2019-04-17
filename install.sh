@@ -36,7 +36,7 @@ curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-co
 
 
 # Run brew command here
-./dobrew.sh
+# ./dobrew.sh # un-comment when setting up a new Mac when setting up
 
 
 # Run the Sublime Script
