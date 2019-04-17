@@ -53,7 +53,6 @@ cask "alfred"
 cask "carbon-copy-cloner"
 
 
-
 # programming
 cask "font-fira-mono"
 cask "pycharm"
@@ -72,6 +71,8 @@ cask "google-chrome"
 # integration apps
 cask "dropbox"
 
+# utilities
+cask "sip" # the color utility app
 
 
 
