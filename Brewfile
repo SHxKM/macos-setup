@@ -8,7 +8,11 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "mas-cli/tap"
 
-## MAS
+# install MAS
+brew "mas"
+
+## MAS apps
+# this is here so homebrew prefers Mac App Store versions for apps we want to get from there
 mas "desktop.WhatsApp", id: 1147396723 # Whatsapp
 mas "com.zive.kiwi", id: 986304488 # Kiwi for Gmail
 mas "com.ulyssesapp.mac", id: 1225570693 # Ulysses
