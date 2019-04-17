@@ -47,4 +47,10 @@ Or call `./install.sh` and supply directories as prompted.
 
 - `install.sh` now prompts for home directory and dotfiles directory if not given as `args`
 
+
+### Credits:
+- The terminal customizations and aliases are heavily inspired by [Corey Schafer's dotfiles repo][2]. 
+
+
 [1]: https://github.com/SHxKM/macos-setup/blob/master/Brewfile
+[2]: https://github.com/CoreyMSchafer/dotfiles
