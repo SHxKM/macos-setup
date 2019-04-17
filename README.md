@@ -3,6 +3,7 @@
 This automates the installation of over 30 apps and utilities for my macOS machines. Also sets up my terminal to look a bit nicer:
 
 
+![Terminal Screenshot](https://i.imgur.com/hLEefX3.png)
 
 ### Usage:
 
