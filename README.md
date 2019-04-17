@@ -12,7 +12,7 @@ This automates the setup process of my macOS machines:
 
 ### Requirements:
 
-Xcode command line tools:
+Xcode command-line tools:
 
 ```bash
 xcode-select --install
