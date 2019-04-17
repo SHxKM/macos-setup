@@ -5,15 +5,30 @@
 # And sets Sublime preferences
 ############################
 
-if [ "$#" -ne 1 ]; then
-    echo "Usage: install.sh <home_directory>"
-    exit 1
+if [ "$#" -ne 2 ] 
+	then
+		echo "$(tput setaf 228)Enter your macOS home directory (usually: /Users/username)$(tput sgr0)"
+		read -p "Enter your home directory: "  user_homedir
+		echo -e "\n"
+		echo "$(tput setaf 228)Enter the relative path to your dotfiles directory $(tput sgr0)"
+		echo "$(tput setaf 228)Example: if the full path is $(tput setaf 15)'/Users/username/dotfiles'$(tput setaf 228), type $(tput setaf 15)'dotfiles'$(tput sgr0)"
+		echo "$(tput setaf 228)(defaults to current directory if empty)$(tput sgr0)"
+		read -p "Enter the relative path to your dotfiles directory: " user_dotfiles_dir
+		if [ -z "$user_dotfiles_dir" ]
+			then
+				absolute_curr=$PWD
+				user_dotfiles_dir=${absolute_curr#$user_homedir}
+		fi
+else 
+    user_homedir=$1
+    user_dotfiles_dir=$2
 fi
 
-homedir=$1
+
+homedir=$user_homedir
 
 # dotfiles directory
-dotfiledir=${homedir}/code/macos-setup
+dotfiledir=${homedir}/${user_dotfiles_dir}
 
 # list of files/folders to symlink in ${homedir}
 files="bash_profile bashrc bash_prompt aliases"
