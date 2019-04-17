@@ -5,6 +5,16 @@ This automates the installation of over 30 apps and utilities for my macOS machi
 
 ![Terminal Screenshot](https://i.imgur.com/hLEefX3.png)
 
+
+### Requirements:
+
+1. Homebrew:
+	- ```
+		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+	  ```
+
+
 ### Usage:
 
 Supply your destination (usually `/Users/username`) and source directories (where your dotfiles are on the current machine):
