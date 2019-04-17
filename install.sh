@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ############################
-# This script creates symlinks from the home directory to any desired dotfiles in ${homedir}/macos-setup
+# This script creates symlinks from the home directory to any desired dotfiles in ${homedir}/${dotfiledir}
 # And also installs Homebrew Packages
 # And sets Sublime preferences
 ############################
