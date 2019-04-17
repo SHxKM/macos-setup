@@ -9,10 +9,11 @@ tap "homebrew/services"
 
 
 # install MAS
+# must come before using mas
 brew "mas"
 
 ## MAS apps
-# this is here so homebrew prefers Mac App Store versions for apps we want to get from there
+# comes before cask installs so these are ignored if we already grabbed the mas version of the app
 mas "desktop.WhatsApp", id: 1147396723 # Whatsapp
 mas "com.zive.kiwi", id: 986304488 # Kiwi for Gmail
 mas "com.ulyssesapp.mac", id: 1225570693 # Ulysses
