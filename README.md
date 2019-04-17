@@ -1,6 +1,6 @@
 # macOS setup
 
-This automates the installation of over 30 apps and utilities for my macOS machines. Also sets up my terminal to look a bit nicer:
+This automates the installation of over 30 apps and utilities for my macOS machines using a [`Brewfile`][1]. Also sets up my terminal to look a bit nicer:
 
 
 ![Terminal Screenshot](https://i.imgur.com/hLEefX3.png)
@@ -25,3 +25,5 @@ Or call `./install.sh` and supply directories as prompted.
 ### Recent changes:
 
 - `install.sh` now prompts for home directory and dotfiles directory if not given as `args`
+
+[1]: https://github.com/SHxKM/macos-setup/blob/master/Brewfile
