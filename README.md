@@ -1,12 +1,22 @@
 # macOS setup
 
-This automates the installation of over 30 apps and utilities for my macOS machines using a [`Brewfile`][1]. Also sets up my terminal to look a bit nicer:
+This automates the setup process of my macOS machines:
+
+1. Installs over 30 apps and utilities using a [`Brewfile`][1].
+2. Sets up my terminal to look a bit nicer with dotfiles: `.bash_profile`, `.bashrc`, `.aliases`.
+3. Sublime Text config: enables `subl` as a command in terminal, and (soon) configures it with my settings and packages.
 
 
 ![Terminal Screenshot](https://i.imgur.com/hLEefX3.png)
 
 
 ### Requirements:
+
+Xcode command line tools:
+
+```bash
+xcode-select --install
+```
 
 Homebrew:
 
