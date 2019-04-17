@@ -27,7 +27,7 @@ Homebrew:
 
 ### Usage:
 
-Supply your destination (usually `/Users/username`) and source directories (where your dotfiles are on the current machine):
+Supply  destination (usually `/Users/username`) and source directories (where your dotfiles are on the current machine):
 
 ```bash
 ./install.sh /Users/username code/macos-setup/
