@@ -1,16 +1,18 @@
 # macOS setup
 
-This is how I plan to set-up my new machine.
+This automates the installation of over 30 apps and utilities for my macOS machines. Also sets up my terminal to look a bit nicer:
+
+
 
 ### Usage:
 
-Supply your source and destination directories:
+Supply your destination (usually `/Users/username`) and source directories (where your dotfiles are on the current machine):
 
 ```bash
 ./install.sh /Users/username code/macos-setup/
 ```
 
-Or call `./install.sh` and supply as prompted.
+Or call `./install.sh` and supply directories as prompted.
 
 ### To Do:
 
