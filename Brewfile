@@ -60,7 +60,6 @@ cask "sublime-text"
 
 # production
 cask "screenflow"
-cask "switchresx" # May not be needed in more capable Macbook Pro
 
 # security
 cask "little-snitch"
@@ -73,6 +72,7 @@ cask "dropbox"
 
 # utilities
 cask "sip" # the color utility app
-
+cask "switchresx" # May not be needed in more capable Macbook Pro
+cask "rescuetime"
 
 

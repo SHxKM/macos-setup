@@ -39,7 +39,7 @@ Or call `./install.sh` and supply directories as prompted.
 
 - ~~Figure out order of operations (in an `install.sh` file)~~
 - Copy settings files to their appropriate places
-- Make sure operations are safe (copy old files instead of overwriting)
+- copy old dot-files instead of overwriting
 - ~~Make sure dobrew.sh installs in the right directories~~
 - Test on dummy/fresh macOS install
 
