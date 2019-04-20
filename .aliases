@@ -25,14 +25,3 @@ alias sudo='sudo '
 
 alias ch='history | grep "git commit"'
 alias hg='history | grep'
-
-
-# To prep before screencasts
-alias tut_mode='defaults write com.apple.dock autohide -bool true && killall Dock;
-               defaults write com.apple.finder CreateDesktop -bool false && killall Finder;
-               defaults write com.apple.menuextra.clock IsAnalog -bool true && killall SystemUIServer;
-               rm -rf ~/.Trash/*;
-               rm -rf ~/Downloads/*'
-alias reg_mode='defaults write com.apple.dock autohide -bool false && killall Dock;
-               defaults write com.apple.finder CreateDesktop -bool true && killall Finder;
-               defaults write com.apple.menuextra.clock IsAnalog -bool false && killall SystemUIServer;'
