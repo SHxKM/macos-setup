@@ -41,7 +41,6 @@ Or call `./install.sh` and supply directories as prompted.
 - Copy settings files to their appropriate places
 - copy old dot-files instead of overwriting
 - ~~Make sure dobrew.sh installs in the right directories~~
-- Test on dummy/fresh macOS install
 
 ### Recent changes:
 
