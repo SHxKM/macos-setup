@@ -51,7 +51,16 @@ cask "Hazel"
 cask "moom"
 cask "alfred"
 cask "carbon-copy-cloner"
+cask "dropbox"
 
+
+# utilities
+cask "sip" # the color utility app
+cask "switchresx" # May not be needed on a  more capable Macbook Pro
+cask "rescuetime"
+
+# web
+cask "google-chrome"
 
 # programming
 cask "font-fira-mono"
@@ -64,15 +73,6 @@ cask "screenflow"
 # security
 cask "little-snitch"
 
-# web
-cask "google-chrome"
 
-# integration apps
-cask "dropbox"
-
-# utilities
-cask "sip" # the color utility app
-cask "switchresx" # May not be needed in more capable Macbook Pro
-cask "rescuetime"
 
 
