@@ -1,6 +1,7 @@
-## INITIAL SET-UP
+## where to install homebrew-cask applications
 cask_args appdir: '/Applications'
-# set-up brew
+
+# set-up brew with taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -8,12 +9,20 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "mas-cli/tap"
 
-# install MAS
-# must come before using mas
-brew "mas"
 
-## MAS apps
-# comes before cask installs so these are ignored if we already grabbed the mas version of the app
+# Brew
+brew "python"
+brew "git"
+brew "bash-completion"
+brew "sqlite"
+brew "postgresql", restart_service: true
+brew "redis", restart_service: true
+brew "wine"
+brew "yarn"
+brew "mas" # must come before using mas
+
+
+# MAS - comes before 'cask' so a MAS version of an app takes precendence
 mas "desktop.WhatsApp", id: 1147396723 # Whatsapp
 mas "com.zive.kiwi", id: 986304488 # Kiwi for Gmail
 mas "com.ulyssesapp.mac", id: 1225570693 # Ulysses
@@ -29,20 +38,8 @@ mas "com.agiletortoise.Drafts-OSX", id: 1435957248 # Drafts
 mas "com.agilebits.onepassword-osx", id: 443987910 # 1Password
 mas "com.acqualia.soulver", id: 413965349 # Soulver
 
-## BREW
 
-# programming 
-brew "python"
-brew "git"
-brew "bash-completion"
-brew "sqlite"
-brew "postgresql", restart_service: true
-brew "redis", restart_service: true
-brew "wine"
-brew "yarn"
-
-
-## CASKS
+# cask applications
 
 # mac eseentials
 cask "vlc"
@@ -56,7 +53,7 @@ cask "dropbox"
 
 # utilities
 cask "sip" # the color utility app
-cask "switchresx" # May not be needed on a  more capable Macbook Pro
+cask "switchresx" # May not be needed on a more capable Macbook Pro
 cask "rescuetime"
 
 # web
