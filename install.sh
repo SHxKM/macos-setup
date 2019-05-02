@@ -55,4 +55,4 @@ curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-co
 
 
 # Run the Sublime Script
-./sublime.sh
+./code_editors.sh
