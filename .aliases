@@ -27,3 +27,4 @@ alias ch='history | grep "git commit"'
 alias hg='history | grep'
 alias bd='. bd -si'
 
+alias clean='rm -rf ~/.Trash/*; rm -rf ~/Downloads/*'

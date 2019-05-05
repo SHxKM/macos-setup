@@ -13,7 +13,7 @@ export SHELL_SESSION_HISTORY=0
 
 # sublime fix: only customize prompt if we're running interactively
 if shopt -q login_shell; then # only if login shell
-
+	eval "$(pyenv init -)"
 	if [[ $- == *i* ]]; then # only if interactive
 		if [ -f ~/.bash_prompt ]; then
 	    	source ~/.bash_prompt
