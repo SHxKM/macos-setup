@@ -1,8 +1,19 @@
 {
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+        ".idea": true,
+        ".vscode": true
+    },
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
+    "python.pythonPath": "/Users/shibel/.pyenv/versions/3.7.2/bin/python",
     "workbench.settings.openDefaultSettings": true,
     "editor.minimap.enabled": false,
     "workbench.statusBar.feedback.visible": false,
@@ -15,4 +26,30 @@
     "editor.formatOnSave": true,
     "editor.fontSize": 14,
     "editor.quickSuggestionsDelay": 100,
+    "window.zoomLevel": -1,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "breadcrumbs.enabled": true,
+    "search.useIgnoreFiles": false,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "explorer.autoReveal": false,
+    "window.openFoldersInNewWindow": "on",
+    "workbench.startupEditor": "none",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "typescript.validate.enable": false,
+    "[html]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[django-html]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": true,
 }

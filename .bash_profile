@@ -25,3 +25,4 @@ if shopt -q login_shell; then # only if login shell
 	fi
 
 fi
+export PATH="$HOME/.poetry/bin:$PATH"
