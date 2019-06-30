@@ -28,3 +28,10 @@ alias hg='history | grep'
 alias bd='. bd -si'
 
 alias clean='rm -rf ~/.Trash/*; rm -rf ~/Downloads/*'
+
+
+alias tut_mode='defaults write com.apple.dock autohide -bool true && killall Dock;
+               rm -rf ~/.Trash/*;
+               rm -rf ~/Downloads/*;
+			   python ~/code/snippets/start_chrome.py;
+			    /Applications/Vanilla.app'
