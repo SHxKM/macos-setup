@@ -66,11 +66,12 @@ if tput setaf 1 &> /dev/null; then
 	# Solarized colors, taken from http://git.io/solarized-colors.
 	black=$(tput setaf 0);
 	blue=$(tput setaf 153);
-	green=$(tput setaf 71);
+	green=$(tput setaf 113);
 	orange=$(tput setaf 166);
 	red=$(tput setaf 167);
 	white=$(tput setaf 15);
 	yellow=$(tput setaf 228);
+	cyan=$(tput setaf 39);
 else
 	bold='';
 	reset="\e[0m";
@@ -87,25 +88,25 @@ fi;
 if [[ "${USER}" == "root" ]]; then
 	userStyle="${red}";
 else
-	userStyle="${green}";
+	userStyle="${cyan}";
 fi;
 
 # Highlight the hostname when connected via SSH.
 if [[ "${SSH_TTY}" ]]; then
 	hostStyle="${bold}${red}";
 else
-	hostStyle="${yellow}";
+	hostStyle="${green}";
 fi;
 
 # Set the terminal title to the current working directory.
 PS1="\[\033]0;\w\007\]";
 PS1+="\[${bold}\]\n"; # newline
 PS1+="\[${userStyle}\]\u"; # username
-PS1+="\[${white}\] @ ";
+PS1+="\[${white}\].";	# separator
 PS1+="\[${hostStyle}\]\h"; # host
-PS1+="\[${white}\] in ";
-PS1+="\[${orange}\]\W"; # working directory
-PS1+="\$(prompt_git \"\[${white}\] on \[${blue}\]\" \"\[${blue}\]\")"; # Git repository details
+PS1+="\[${white}\]: "; # separator with space
+PS1+="\[${yellow}\]\w"; # working directory
+PS1+="\$(prompt_git \"\[${white}\] \[${orange}\]\" \"\[${orange}\]\")"; # Git repository details
 PS1+="\n";
 PS1+="\[${white}\]→ \[${reset}\]"; # `$` (and reset color)
 export PS1;
