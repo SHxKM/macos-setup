@@ -44,6 +44,8 @@ alias regmode='defaults write com.apple.finder CreateDesktop true;
 # git aliases
 alias ga='git add'
 alias gb='git branch'
-alias gp='git push'
 alias gcm='git commit --message'
+alias gcma='git commit -a --message'
+alias gd='git diff'
+alias gp='git push'
 alias gs='git status'
