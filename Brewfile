@@ -11,8 +11,8 @@ tap "mas-cli/tap"
 
 
 # Brew
-brew "bash-completion"
 brew "git"
+brew "bash-completion"
 brew "httpie"
 brew "mas" # must come before using mas
 brew "postgresql", restart_service: true
