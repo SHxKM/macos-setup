@@ -23,6 +23,12 @@ if shopt -q login_shell; then # only if login shell
 	if [ -f ~/.aliases ]; then
 	    source ~/.aliases
 	fi
-
 fi
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion || {
+    # if not found in /usr/local/etc, try the brew --prefix location
+    [ -f "$(brew --prefix)/etc/bash_completion.d/git-completion.bash" ] && \
+        . $(brew --prefix)/etc/bash_completion.d/git-completion.bash
+}
+
 export PATH="$HOME/.poetry/bin:$PATH"
