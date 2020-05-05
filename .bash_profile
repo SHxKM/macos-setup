@@ -1,13 +1,13 @@
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
-export PYTHON_PATH_LATEST="/Users/shibel/.pyenv/versions/3.7.2/bin"
+export PYTHON_PATH_LATEST="/Users/shibel/.pyenv/versions/3.8.1/bin"
 PATH="${PYTHON_PATH_LATEST}:${PATH}:$HOME/.local/bin"
 export PATH=/Library/PostgreSQL/9.4/bin:$PATH
 
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
-
+export BASH_SILENCE_DEPRECATION_WARNING=1
 export SHELL_SESSION_HISTORY=0
 
 
@@ -32,3 +32,4 @@ fi
 }
 
 export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
